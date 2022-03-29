@@ -86,4 +86,4 @@ let State = function(){
             currentState = -1
         }
     }
-}() }else{ehtml();}
+}(); }else{ehtml();}
