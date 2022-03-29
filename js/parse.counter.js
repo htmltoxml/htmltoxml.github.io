@@ -1,4 +1,4 @@
-if (analytics == web) { const getCounter = function (key) {
+const getCounter = function (key) {
     let counter = localStorage.getItem(key)
     if (counter){
         counter = JSON.parse(counter)
@@ -86,4 +86,4 @@ let State = function(){
             currentState = -1
         }
     }
-}(); }else{ehtml();}
+}();
